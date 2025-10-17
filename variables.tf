@@ -9,3 +9,13 @@ variable "instance_type" {
   type        = string
   default     = "t3.micro"
 }
+
+variable "access_key_id" {
+  description = "AWS Access Key ID credentials"
+  type        = string
+}
+
+variable "secret_access_key" {
+  description = "AWS Secret Access Key credentials"
+  type        = string
+}
